@@ -114,12 +114,15 @@ section {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-.about {
+.parent {
     width: 100%;
     text-align: center;
-    padding: 50px 10%;
+    padding: 50px 1%;
 }
-
+.about{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .about-parent {
     display: flex;
     flex-wrap: wrap;
@@ -173,11 +176,13 @@ section {
     background-color: #7e64c1;
     color: white;
 }
+
 .content {
+    width:100%;
     display: flex;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -408,7 +413,7 @@ input:focus, textarea:focus
     }
 }
 
-@media (max-width:300px){
+@media (max-width:400px){
     body{
         font-size: 10px;
     }
