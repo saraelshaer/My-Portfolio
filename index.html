@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Sara Elshaer</title>
+    <title>Sara Elshaer - Portfolio</title>
 </head>
 <body>
 
     <header>
-        <a href="#" class="logo">Sara</a>
+        <a href="#" class="logo"><i class="fa fa-code"></i> Sara</a>
         <nav class="navigation">
+            <a href="#about">   About</a>
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
@@ -34,6 +35,26 @@
         </div>
     </section>
 
+    <section class="about" id="about">
+        <h2 class="title">About Me</h2>
+        <div class="about-parent">
+            <div class="about-img">
+                
+                <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/f5d2d866-d25c-4873-8d82-425d2c62fc2e" >
+            </div>
+                
+            <div class="about-parag">
+                    <p>
+                        A resourceful <strong>software engineer</strong>  passionate about building smart, user-friendly solutions that make technology more accessible and efficient. I specialize in <strong> .NET development</strong>., and <strong>database architecture</strong>., ensuring that systems run smoothly, securely, and at scale. With a background in <strong>competitive programming</strong>, I love solving complex challenges and turning ideas into practical, high-impact software. Continuously learning and adapting to industry trends, I strive to deliver high-quality, tailored software solutions that drive innovation and impact.
+                    </p>
+                    <a href="assets/Sara_Elshaer_CV.pdf" download="Sara_Elshaer_CV.pdf">
+                        <button>Download CV</button>
+                    </a>
+            </div>
+            
+        </div>
+    </section>
+
     <section class="cards" id="services">
         <h2 class="title">Services</h2>
         <div class="content">
@@ -44,15 +65,6 @@
                 <div class="info">
                     <h3>Custom Website Development</h3>
                     <p>Responsive and user-friendly websites tailored to your needs, with interactive features and modern designs</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <i class="fas fa-code"></i>
-                </div>
-                <div class="info">
-                    <h3>Web Application Development</h3>
-                    <p>Building dynamic, data-driven web apps using the latest frameworks and technologies</p>
                 </div>
             </div>
             <div class="card">
@@ -87,67 +99,7 @@
                     <p class="project-category">E-commerce Website</p>
                     <strong class="project-title">
                         <span>FunStore</span>
-                        <a href="https://github.com/saraelshaer/Online-Furniture-Store" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work2.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work3.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work4.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work5.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Dev Books</span>
-                        <a href="#" class="more-details">More details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="images/work6.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">Script Writing & Video Production</p>
-                    <strong class="project-title">
-                        <span>Internet</span>
-                        <a href="#" class="more-details">More details</a>
+                        <a href="https://github.com/saraelshaer/FunStore" class="more-details">More details</a>
                     </strong>
                 </div>
             </div>
@@ -157,7 +109,7 @@
     <section class="cards contact" id="contact">
         <h2 class="title">Contact Me</h2>
         
-        <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+        <form action="https://formsubmit.co/saraelshaer923@gmail.com" method="post" class="contact-form col-md-10 col-lg-8 m-auto">
             <div class="form-row">
                 <div class="form-group col-sm-6">
                     <input type="text" size="50" class="form-control" placeholder="Your Name" required>
@@ -170,14 +122,14 @@
                         placeholder="Write Something..."></textarea>
                 </div>
                 <div class="form-group col-sm-12 mt-3">
-                    <input type="submit" value="Send Message" class="btn">
+                    <button type="submit"  class="btn"> Send Message <i class="fa fa-paper-plane"></i></button>
                 </div>
             </div>
         </form>
     </section>
     
     <footer class="footer">
-        <p class="footer-title">Copyrights @ <span>Sara Elshaer</span></p>
+        <p class="footer-title">Copyrights ©<span>Sara Elshaer</span></p>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/sara-elshaer"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/saraelshaer"><i class="fab fa-github"></i></a>

@@ -22,10 +22,11 @@ header {
 
 .logo{
     text-decoration: none;
-    color: #705ca4;
+    color:#614a99;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+    letter-spacing: 3px;
 }
 
 .navigation a{
@@ -37,7 +38,7 @@ header {
 }
 
 .navigation a:hover{
-    color: #554588;
+    color: #4e3f86;
 }
 
 section {
@@ -67,6 +68,7 @@ section {
     color: #705ca4;
     font-size: 3em;
     font-weight: 600;
+    letter-spacing: 1.7px;
 }
 
 .main h3 {
@@ -86,7 +88,7 @@ section {
     font-weight: 600;
     display: inline-block;
     padding: 0.9375em 2.1875em;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.7s ease;
@@ -110,8 +112,67 @@ section {
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.about {
+    width: 100%;
+    text-align: center;
+    padding: 50px 10%;
 }
 
+.about-parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-img {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 500px; 
+}
+
+.about-parag {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+.about-parag p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #333; 
+    font-weight: 400; 
+    text-align: justify; 
+}
+.about-parag p strong {
+    color: #705ca4; 
+    font-weight: 600;
+}
+.about-parag button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color:#f0f0f06c;
+    color: #7e64c1;
+    border: 2px #624f94 solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.about-parag button:hover {
+    background-color: #7e64c1;
+    color: white;
+}
 .content {
     display: flex;
     justify-content: center;
@@ -123,6 +184,7 @@ section {
     background-color: #fff;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border: 2px rgba(128, 128, 128, 0.403) solid;
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
@@ -150,7 +212,9 @@ section {
     margin: 10px;
 }
 
-
+.projects , .about{
+    background-color: #f0f0f06c;
+}
 .projects .content{
     margin-top: 30px;
 }
@@ -202,19 +266,7 @@ section {
 }
 
 .more-details:hover {
-    color: #71688c;
-}
-
-.contact .icon{
-    font-size: 4.5em;
-}
-
-.contact .info h3 {
-    color: #000;
-}
-
-.contact .info p {
-    font-size: 1.5em;
+    color:#614a99;
 }
 
 .contact .title {
@@ -263,19 +315,27 @@ section {
     display: flex;
     justify-content: center;
 }
-
+input:focus, textarea:focus
+{
+    border:2px #47327b solid;
+    outline: none;
+}
 .btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #705ca4;
-    color: #fff;
-    font-size: 1em;
+    padding: 12px 20px;
+    border: 2px #624f94 solid;
+    border-radius: 10px ;
+    background-color: #f3f2f686;
+    color: #624f94;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 1.5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #554588;
+    background-color:  #705ca4;
+    color: #fff;
 }
 .footer {
     background-color: #f0f0f0;
@@ -286,7 +346,7 @@ section {
 }
 
 .footer-title {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 600;
 }
 
@@ -300,7 +360,7 @@ section {
     color:#6c757d;
 }
 .social-icons a:hover{
-    color:#705ca4;
+    color:#614a99;
 }
 @media (max-width:1023px){
     header{
